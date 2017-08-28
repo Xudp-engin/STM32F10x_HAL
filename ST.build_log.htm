@@ -1,0 +1,133 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Zyf\Desktop\STM32F103工程\ST.uvproj
+Project File Date:  03/26/2014
+
+<h2>Output:</h2>
+Build target 'STM32F103'
+compiling main.c...
+linking...
+Program Size: Code=332 RO-data=252 RW-data=0 ZI-data=608  
+FromELF: creating hex file...
+".\Output\ST.axf" - 0 Error(s), 0 Warning(s).
+ram Size: Code=336 RO-data=252 RW-data=0 ZI-data=608  
+FromELF: creating hex file...
+".\Output\ST.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\Zyf\\Desktop\\STM32F103工程\\Output\\ST.axf" 
+Set JLink Project File to "C:\Users\Zyf\Desktop\STM32F103工程\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RB" selected (128 KB flash, 20 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.78g, compiled Nov  8 2013 18:39:22
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Could not measure total IR len. TDO is constant high.
+* JLink Info: STM32F1xxx: Can not attach to CPU. Trying connect under reset.
+* JLink Info: Could not measure total IR len. TDO is constant high.
+Error: Flash Download failed  -  Target DLL has been cancelled
+Load "C:\\Users\\Zyf\\Desktop\\STM32F103工程\\Output\\ST.axf" 
+Set JLink Project File to "C:\Users\Zyf\Desktop\STM32F103工程\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RB" selected (128 KB flash, 20 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.78g, compiled Nov  8 2013 18:39:22
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: STM32F1xxx: Can not attach to CPU. Trying connect under reset.
+Error: Flash Download failed  -  Target DLL has been cancelled
+Load "C:\\Users\\Zyf\\Desktop\\STM32F103工程\\Output\\ST.axf" 
+Set JLink Project File to "C:\Users\Zyf\Desktop\STM32F103工程\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RB" selected (128 KB flash, 20 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.78g, compiled Nov  8 2013 18:39:22
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+r:  #5: cannot open source input file "stm32f10x_conf.h": No such file or directory
+    #include "stm32f10x_conf.h"
+StdPeriph\src\stm32f10x_fsmc.c: 0 warnings, 1 error
+compiling stm32f10x_gpio.c...
+.\CMSIS\stm32f10x.h(6971): error:  #5: cannot open source input file "stm32f10x_conf.h": No such file or directory
+    #include "stm32f10x_conf.h"
+StdPeriph\src\stm32f10x_gpio.c: 0 warnings, 1 error
+compiling stm32f10x_i2c.c...
+.\CMSIS\stm32f10x.h(6971): error:  #5: cannot open source input file "stm32f10x_conf.h": No such file or directory
+    #include "stm32f10x_conf.h"
+StdPeriph\src\stm32f10x_i2c.c: 0 warnings, 1 error
+compiling stm32f10x_iwdg.c...
+.\CMSIS\stm32f10x.h(6971): error:  #5: cannot open source input file "stm32f10x_conf.h": No such file or directory
+    #include "stm32f10x_conf.h"
+StdPeriph\src\stm32f10x_iwdg.c: 0 warnings, 1 error
+compiling stm32f10x_pwr.c...
+.\CMSIS\stm32f10x.h(6971): error:  #5: cannot open source input file "stm32f10x_conf.h": No such file or directory
+    #include "stm32f10x_conf.h"
+StdPeriph\src\stm32f10x_pwr.c: 0 warnings, 1 error
+compiling stm32f10x_rcc.c...
+.\CMSIS\stm32f10x.h(6971): error:  #5: cannot open source input file "stm32f10x_conf.h": No such file or directory
+    #include "stm32f10x_conf.h"
+StdPeriph\src\stm32f10x_rcc.c: 0 warnings, 1 error
+compiling stm32f10x_rtc.c...
+.\CMSIS\stm32f10x.h(6971): error:  #5: cannot open source input file "stm32f10x_conf.h": No such file or directory
+    #include "stm32f10x_conf.h"
+StdPeriph\src\stm32f10x_rtc.c: 0 warnings, 1 error
+compiling stm32f10x_sdio.c...
+.\CMSIS\stm32f10x.h(6971): error:  #5: cannot open source input file "stm32f10x_conf.h": No such file or directory
+    #include "stm32f10x_conf.h"
+StdPeriph\src\stm32f10x_sdio.c: 0 warnings, 1 error
+compiling stm32f10x_spi.c...
+.\CMSIS\stm32f10x.h(6971): error:  #5: cannot open source input file "stm32f10x_conf.h": No such file or directory
+    #include "stm32f10x_conf.h"
+StdPeriph\src\stm32f10x_spi.c: 0 warnings, 1 error
+compiling stm32f10x_tim.c...
+.\CMSIS\stm32f10x.h(6971): error:  #5: cannot open source input file "stm32f10x_conf.h": No such file or directory
+    #include "stm32f10x_conf.h"
+StdPeriph\src\stm32f10x_tim.c: 0 warnings, 1 error
+compiling stm32f10x_usart.c...
+.\CMSIS\stm32f10x.h(6971): error:  #5: cannot open source input file "stm32f10x_conf.h": No such file or directory
+    #include "stm32f10x_conf.h"
+StdPeriph\src\stm32f10x_usart.c: 0 warnings, 1 error
+compiling stm32f10x_wwdg.c...
+.\CMSIS\stm32f10x.h(6971): error:  #5: cannot open source input file "stm32f10x_conf.h": No such file or directory
+    #include "stm32f10x_conf.h"
+StdPeriph\src\stm32f10x_wwdg.c: 0 warnings, 1 error
+".\ST.axf" - 23 Error(s), 0 Warning(s).
+Target not created
+: 0 warnings, 1 error
+".\ST.axf" - 23 Error(s), 0 Warning(s).
+Target not created

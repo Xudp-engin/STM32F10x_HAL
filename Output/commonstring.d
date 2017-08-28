@@ -1,0 +1,10 @@
+.\output\commonstring.o: CommonLib\CommonString.c
+.\output\commonstring.o: CommonLib\CommonString.h
+.\output\commonstring.o: CommonLib\ASCII.h
+.\output\commonstring.o: CommonLib\CommonType.h
+.\output\commonstring.o: CommonLib\CommonUtil.h
+.\output\commonstring.o: D:\MDK5.20\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\commonstring.o: D:\MDK5.20\ARM\ARMCC\Bin\..\include\stdlib.h
+.\output\commonstring.o: D:\MDK5.20\ARM\ARMCC\Bin\..\include\string.h
+.\output\commonstring.o: D:\MDK5.20\ARM\ARMCC\Bin\..\include\assert.h
+.\output\commonstring.o: D:\MDK5.20\ARM\ARMCC\Bin\..\include\ctype.h

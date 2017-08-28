@@ -1,0 +1,16 @@
+.\output\redirect.o: App\redirect.c
+.\output\redirect.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\output\redirect.o: .\CMSIS\stm32f10x.h
+.\output\redirect.o: .\CMSIS\core_cm3.h
+.\output\redirect.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\output\redirect.o: .\CMSIS\system_stm32f10x.h
+.\output\redirect.o: .\App\stm32f10x_conf.h
+.\output\redirect.o: .\StdPeriph\inc\stm32f10x_adc.h
+.\output\redirect.o: .\CMSIS\stm32f10x.h
+.\output\redirect.o: .\StdPeriph\inc\stm32f10x_flash.h
+.\output\redirect.o: .\StdPeriph\inc\stm32f10x_gpio.h
+.\output\redirect.o: .\StdPeriph\inc\stm32f10x_rcc.h
+.\output\redirect.o: .\StdPeriph\inc\stm32f10x_spi.h
+.\output\redirect.o: .\StdPeriph\inc\stm32f10x_tim.h
+.\output\redirect.o: .\StdPeriph\inc\misc.h
+.\output\redirect.o: .\StdPeriph\inc\stm32f10x_usart.h
